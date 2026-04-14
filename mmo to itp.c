@@ -416,7 +416,8 @@ int main(void)
 	fclose(mmo2);
 	fclose(opls);
 	fclose(output1);
-	printf("\n\nall done! \n if you found any issues or have any questions you can message me at shade.lord.bill@gmail.com\nthe source code and original exe can be found at https://github.com/T3rm0sss/mmo-to-itp-converter\nif you're a researcher, please cite me in the paper. c'mon, the software is free and it'll help me in the future if you do");
+	printf("\n\nall done! \n if you found any issues or have any questions you can message me at shade.lord.bill@gmail.com\nthe source code and original exe can be found at https://github.com/T3rm0sss/mmo-to-itp-converter\nif you're a researcher, please cite me in the paper. c'mon, the software is free and it'll help me in the future if you do :)\npress the enter key to exit");
+	getchar();
 }
 void hate(int line,char stringa[],float hatred_i[7])
 {
